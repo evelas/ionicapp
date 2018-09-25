@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-navbar>
+<!--     <ion-title>Page One</ion-title> -->
+    <div class="top">
+        <img class="logo" src="images/logo.png" />
+
+         <button  color="light" clear class="iconbutton mapicon" (click)="openMapPage()"><img class="mapiconimg" src="images/map_parking_icon.png" /> </button>
+    </div>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding id="content">
+   
+
+      <div class="center newsh1">
+        <h1>Новости</h1>
+      </div>  
+
+            <ion-card >
+                    <p class="greeting-id">  </p>
+
+                    <p class="greeting-content">  </p>
+            </ion-card>
+
+
+        <!--<ion-card> подложка
+                <ion-card-header>
+                    
+                </ion-card-header>
+
+                <ion-list>
+                    <button ion-item (click)="onLink('http://go.microsoft.com/fwlink/?LinkID=820516')">
+                        <ion-icon name="jet" item-left></ion-icon>
+                        Getting Started
+                    </button>
+                </ion-list> 
+                
+            </ion-card>-->
+
+<!-- 	  <button ion-button secondary menuToggle>Toggle Menu</button>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+<button ion-button (click)="openFirstPage()">Go</button>
+
+<button ion-button (click)="openLoginPage()">GoNew</button> -->
+
+
+
+
+
+</ion-content>
+        <div id="bottom">
+
+                <button ion-button color="light" clear class="iconbutton" (click)="openLoginPage()">
+                    <div class="profile">
+                        <img src="images/profile.png" />
+                    </div>
+                </button>
+
+                <button  ion-button color="light" clear class="iconbutton" (click)="openLoginPage()">
+                    <div class="padnote">
+                        <img src="images/padnote.png" />
+                    </div>
+                </button>
+
+                <button  ion-button color="light" clear class="iconbutton" (click)="openLoginPage()">
+                    <div class="news">
+                        <img src="images/placeholder.png" />
+                    </div>
+                </button>
+
+                <button  ion-button color="light" clear class="iconbutton" (click)="openLoginPage()">
+                    <div class="menu-heart">
+                      <img src="images/heart.png" />
+                    </div>
+                </button>
+
+                <button menuToggle ion-button color="light" clear class="iconbutton">
+                    <div class="burger">
+                        <img src="images/menu.png" />
+                    </div>
+                </button>
+
+        </div>
