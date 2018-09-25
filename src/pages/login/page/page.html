@@ -4,7 +4,7 @@
     <div class="top">
         <img class="logo" src="images/logo.png" />
 
-        <img class="mapicon" src="images/map_parking_icon.png" /> 
+         <button  color="light" clear class="iconbutton mapicon" (click)="openMapPage()"><img class="mapiconimg" src="images/map_parking_icon.png" /> </button>
     </div>
 
   </ion-navbar>
@@ -25,6 +25,39 @@
 </ion-list>
 
 <div padding>
-  <button ion-button block>Sign In</button>
+  <button ion-button block>Sign `In</button>
 </div>
 </ion-content>
+ <div id="bottom">
+
+                <button ion-button color="light" clear class="iconbutton" (click)="openLoginPage()">
+                    <div class="profile">
+                        <img src="images/profile.png" />
+                    </div>
+                </button>
+
+                <button  ion-button color="light" clear class="iconbutton" (click)="openLoginPage()">
+                    <div class="padnote">
+                        <img src="images/padnote.png" />
+                    </div>
+                </button>
+
+                <button  ion-button color="light" clear class="iconbutton" (click)="openLoginPage()">
+                    <div class="news">
+                        <img src="images/placeholder.png" />
+                    </div>
+                </button>
+
+                <button  ion-button color="light" clear class="iconbutton" (click)="openLoginPage()">
+                    <div class="menu-heart">
+                      <img src="images/heart.png" />
+                    </div>
+                </button>
+
+                <button menuToggle ion-button color="light" clear class="iconbutton">
+                    <div class="burger">
+                        <img src="images/menu.png" />
+                    </div>
+                </button>
+
+        </div>

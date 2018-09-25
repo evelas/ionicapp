@@ -20,7 +20,7 @@
   <preference name="SplashScreenDelay" value="5000" />
   <preference name="FadeSplashScreenDuration" value="300" />
   <preference name="AutoHideSplashScreen" value="false" />
-  <preference name="ShowSplashScreen" value="true" />
+  <preference name="ShowSplashScreen" value="none" />
   <preference name="FadeSplashScreen" value="screen" />
   <platform name="android">
     <allow-intent href="market:*" />
